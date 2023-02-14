@@ -102,7 +102,20 @@ section h1::before {
 /* Checks */
 .check::before {
     content:"\2714 " ;
-}\2714
+    color: greenyellow;
+    border: 2px solid greenyellow;
+    border-radius: 50%;
+    padding: 2px 3px;
+    font-size: 10px;
+    margin-right: 10px;
+    
+}
 .cross::before {
     content: "\2717 ";
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 2px 3px;
+    font-size: 10px;
+    margin-right: 10px;
 }
