@@ -66,6 +66,9 @@ nav button {
 section {
     margin: 20px;
 }
+section span {
+    line-height: 2;
+}
 section h1::before {
     content: '\25BC';
 }
@@ -94,4 +97,12 @@ section h1::before {
 }
 .sales {
     background-color: rgb(176,201,38);
+}
+
+/* Checks */
+.check::before {
+    content:"\2714 " ;
+}\2714
+.cross::before {
+    content: "\2717 ";
 }
