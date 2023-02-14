@@ -69,3 +69,13 @@ section {
 section h1::before {
     content: '\25BC';
 }
+
+.task-button {
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: smaller;
+}
+.editorial {
+    background-color: rgb(71,173,241);
+}
