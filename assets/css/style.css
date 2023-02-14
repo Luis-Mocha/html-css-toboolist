@@ -76,6 +76,22 @@ section h1::before {
     color: white;
     font-size: smaller;
 }
+/* task buttons color */
 .editorial {
     background-color: rgb(71,173,241);
+}
+.q1 {
+    background-color: rgb(156,114,228);
+}
+.recruiting {
+    background-color: rgb(100,192,169);
+}
+.mobile {
+    background-color: rgb(242,158,51);
+}
+.website {
+    background-color: rgb(236,187,216);
+}
+.sales {
+    background-color: rgb(176,201,38);
 }
