@@ -1,6 +1,41 @@
-/* css reset  */
+/* CSS RESET  */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+li {
+    list-style-type: none;
+}
+body {
+    background-color: rgb(246,248,249);
+}
+
+/* UTILITY */
+.v-align {
+    vertical-align: middle;
+}
+.container {
+    max-width:70% ;
+    margin:  40px auto;
+}
+
+/* HEADER */
+header {
+    background-color: white;
+    height: 90px;
+    padding: 20px;
+}
+#header-title{
+    font-weight: 800;
+    font-size: 40px;
+    vertical-align:middle;
+}
+
+/* MAIN */
+.main {
+    background-color: white;
+}
+
+
