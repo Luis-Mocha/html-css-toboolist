@@ -59,4 +59,9 @@ nav button {
     border-color: gray;
 }
 
+/* SEZIONI */
+h2::before {
+    content: "&#9660";
+}
+
 
