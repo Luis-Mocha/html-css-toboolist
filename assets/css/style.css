@@ -34,8 +34,29 @@ header {
 }
 
 /* MAIN */
-.main {
+main {
     background-color: white;
+}
+
+/* NAV  */
+nav {
+    padding: 15px 30px 10px;
+    border-bottom: 2px solid rgb(246,248,249);
+}
+nav button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+#add-task {
+    color: white;
+    border-color: rgb(71,173,241);
+    background-color: rgb(71,173,241);
+}
+#add-section {
+    color: gray;
+    background-color: white;
+    border-color: gray;
 }
 
 
