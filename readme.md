@@ -1,4 +1,4 @@
-# Esercizio: "html-css-tobolist"
+# Esercizio: "html-css-toboolist"
 ---
 Riproduco un layout usando *html* e *css*
 ---
