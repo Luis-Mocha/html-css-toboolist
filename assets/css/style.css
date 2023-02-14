@@ -13,8 +13,11 @@ body {
 }
 
 /* UTILITY */
-.v-align {
+.valign-middle {
     vertical-align: middle;
+}
+.valign-baseline {
+    vertical-align: baseline;
 }
 .container {
     max-width:70% ;
@@ -60,8 +63,9 @@ nav button {
 }
 
 /* SEZIONI */
-h2::before {
-    content: "&#9660";
+section {
+    margin: 20px;
 }
-
-
+section h1::before {
+    content: '\25BC';
+}
