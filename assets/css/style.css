@@ -17,28 +17,21 @@ body {
 .valign-middle {
     vertical-align: middle;
 }
-.valign-baseline {
-    vertical-align: baseline;
-}
-.container {
-    max-width:70% ;
-    margin:  40px auto;
-}
 
 /* HEADER */
 header {
     background-color: white;
-    height: 90px;
     padding: 20px;
 }
 #header-title{
     font-weight: 800;
     font-size: 40px;
-    vertical-align:middle;
 }
 
 /* MAIN */
-main {
+.container {
+    max-width:70% ;
+    margin:  40px auto 0;
     background-color: white;
 }
 
@@ -51,6 +44,7 @@ nav button {
     padding: 5px 10px;
     border-radius: 5px;
     border: 1px solid;
+    cursor: pointer;
 }
 #add-task {
     color: white;
