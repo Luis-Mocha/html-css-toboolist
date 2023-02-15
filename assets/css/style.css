@@ -35,12 +35,12 @@ header {
     background-color: white;
 }
 
-/* NAV  */
-nav {
+/* .menu-add  */
+.menu-add {
     padding: 15px 30px 10px;
     border-bottom: 2px solid rgb(246,248,249);
 }
-nav button {
+.menu-add button {
     padding: 5px 10px;
     border-radius: 5px;
     border: 1px solid;
@@ -61,39 +61,50 @@ nav button {
 section {
     margin: 20px;
 }
-section span {
-    line-height: 2;
-}
 section h1::before {
     content: '\25BC';
     font-size: 11px;
     margin-right: 5px;
 }
 
-.task-button {
-    padding: 5px 12px;
-    border-radius: 15px;
-    color: white;
-    font-size: 12px;
+li {
+    line-height: 2;
 }
-/* task buttons color */
-.editorial {
-    background-color: rgb(71,173,241);
+
+/* Etichettte */
+.etichetta::after {
+  padding: 5px 12px;
+  border-radius: 15px;
+  color: white;
+  font-size: 12px;
+  margin-left: 10px;
+  cursor: pointer;
 }
-.q1 {
-    background-color: rgb(156,114,228);
+
+/* etichette contenuto e colore */
+.editorial::after {
+  content: 'Editorial';
+  background-color: rgb(71,173,241);
 }
-.recruiting {
-    background-color: rgb(100,192,169);
+.q1::after {
+  content: 'Q1 goals';
+  background-color: rgb(156,114,228);
 }
-.mobile {
-    background-color: rgb(242,158,51);
+.recruiting::after {
+  content: 'Recruiting';
+  background-color: rgb(100,192,169);
 }
-.website {
-    background-color: rgb(236,187,216);
+.mobile::after {
+  content: 'Mobile';
+  background-color: rgb(242,158,51);
 }
-.sales {
-    background-color: rgb(176,201,38);
+.website::after {
+  content: 'Website';
+  background-color: rgb(236,187,216);
+}
+.sales::after {
+  content: 'Sales';
+  background-color: rgb(176,201,38);
 }
 
 /* Checks */
